@@ -16,7 +16,7 @@ namespace API_Usuario.Models.Usuario
 
             //Con esta linea vamos a traer todos los datos para ingresar a la base de datos
             //El nombre del servidor, que base de datos se esta usando, usuario, password, etc.
-            //Hola
+
             string conexion = "";
             SqlConnection con = null;
             
