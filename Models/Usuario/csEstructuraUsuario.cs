@@ -19,5 +19,11 @@ namespace API_Usuario.Models.Usuario
             public int respuesta { get; set; }
             public string descriptionRespuest { get; set; }
         }
+
+        public class requestEliminarArticulo
+        {
+            public int idUsuario { get; set; }
+        }
+
     }
 }
