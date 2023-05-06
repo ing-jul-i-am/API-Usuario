@@ -29,7 +29,7 @@ namespace API_Usuario.Controllers
         //Metodo para eliminar
         [HttpPost]
         [Route("rest/api/eliminarUsuario")]
-        public IHttpActionResult eliminarUsuarios(requestEliminarArticulo model)
+        public IHttpActionResult eliminarUsuarios(requestEliminarUsuario model)
         {
             return Ok(new csUsuario().eliminarUsuario(model.idUsuario));
         }
