@@ -20,7 +20,7 @@ namespace API_Usuario.Models.Usuario
             public string descriptionRespuest { get; set; }
         }
 
-        public class requestEliminarArticulo
+        public class requestEliminarUsuario
         {
             public int idUsuario { get; set; }
         }
